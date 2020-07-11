@@ -10,7 +10,7 @@ The reconstruction pipeline consists of two main building blocks:
    
 2. NN Trace Refinement
 
-   This model allows us to fold in noise and other imperfections in detector response that are impossible/impractical to simulate. The goal is to have a network that transform a simulated trace (either from the actual DMC or the neuralized version) into a "refined" trace that is indistinguishable to real data (including noise profile and other quirks).
+   This model allows us to fold in noise and other imperfections into the detector response that are impossible/impractical to simulate. The goal is to have a network that transform a simulated trace (either from the actual DMC or the neuralized version) into a "refined" trace that is indistinguishable to real data (including noise profile and other quirks).
    
 The combination of the above networks will allow us to perform full event NN-based reconstruction.
 

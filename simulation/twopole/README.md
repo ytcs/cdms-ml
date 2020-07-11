@@ -14,6 +14,8 @@ Performance is ranked by ```1-sqrt(MSE)``` over the **entire** dataset (not just
 score = 1-np.sqrt(np.mean(np.square(traces-predicted_traces)))
 ```
 
+As part of the task specification you should have a minimum validation split of 20%.
+
 ## Submission
 
 You should save your model as a Keras model using ```keras.models.save()```. Tarballs or ```.keras``` files are both accepted. Please submit a pull request if you have a model that performs better than the top model in the current ranking. For models that contain custom loss functions/layers, the ```compile=False``` option may be required when loading the model.

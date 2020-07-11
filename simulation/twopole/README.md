@@ -9,11 +9,10 @@ See the ```data``` folder
 
 ## Scoring
 
-Performance is ranked by ```sqrt(MSE)``` over the **entire** dataset (not just val or test):
+Performance is ranked by ```1-sqrt(MSE)``` over the **entire** dataset (not just val or test):
 ```python
-score = np.sqrt(np.mean(np.square(traces-predicted_traces)))
+score = 1-np.sqrt(np.mean(np.square(traces-predicted_traces)))
 ```
-A lower score is better performance.
 
 ## Submission
 
@@ -22,4 +21,4 @@ You should save your model as a Keras model using ```keras.models.save()```. Tar
 
 | Model Name | Score (%) |
 | --- | --- |
-| DenseNet-2pole | 0.72 |
+| DenseNet-2pole | 99.28 |

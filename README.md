@@ -14,5 +14,10 @@ The reconstruction pipeline consists of two main building blocks:
    
 The combination of the above networks will allow us to perform full event NN-based reconstruction.
 
+We strongly encourage all members of the collaboration to take part in the various challenges.
+
+List of open challenges:
+ - /simulation/twopole 
+
 References:
  -	arXiv:1802.03325 [astro-ph.IM]

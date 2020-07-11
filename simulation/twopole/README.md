@@ -9,7 +9,7 @@ See the ```data``` folder
 
 ## Scoring
 
-Performance is ranked by ```1-sqrt(MSE)``` over the **entire** dataset (not just val or test):
+Performance is ranked by ```1-sqrt(MSE)``` over the **entire** dataset:
 ```python
 score = 1-np.sqrt(np.mean(np.square(traces-predicted_traces)))
 ```

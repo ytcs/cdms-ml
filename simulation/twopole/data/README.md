@@ -17,4 +17,6 @@ The four parameters ```A```,```tau1```,```tau2```,```t0``` were randomly selecte
 
 The file ```twopole-params.npy``` contains a numpy array of shape ```(N,4)``` that stores the four params ```[A,tau1,tau2,t0]``` for each trace. This is the input for this task.
 
-The file ```twopole-traces.npy``` contains a numpy array of shape ```(N,tlen)``` that stores the traces. This is the output for this task.
+The file ```twopole-traces.npy``` contains a numpy array of shape ```(N,tlen)``` that stores the traces. This is the output for this task. 
+**This file is too large to be uploaded here. It is located on the SLAC NFS at the following path:**
+```/nfs/slac/g/supercdms/dl/mc/twopole-traces.npy```

@@ -16,8 +16,8 @@ The combination of the above networks will allow us to perform full event NN-bas
 
 We strongly encourage all members of the collaboration to take part in the various challenges.
 
-List of open challenges:
+## List of open challenges:
  - /simulation/twopole 
 
-References:
+## References:
  -	arXiv:1802.03325 [astro-ph.IM]

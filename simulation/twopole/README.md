@@ -14,7 +14,7 @@ Performance is ranked by ```1-sqrt(MSE)``` over the **entire** dataset:
 score = 1-np.sqrt(np.mean(np.square(traces-predicted_traces)))
 ```
 
-As part of the task specification you should have a minimum validation split of 20%. In fact, it is recommended that you train on data that you generate yourself and calculate your score on the dataset. You should not train with the entire dataset otherwise your result will not be counted.
+As part of the task specification you should have a minimum validation split of 20%. You should not train with the entire dataset otherwise your result will not be counted.
 
 ## Submission
 

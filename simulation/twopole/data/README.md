@@ -20,3 +20,5 @@ The file ```twopole-params.npy``` contains a numpy array of shape ```(N,4)``` th
 The file ```twopole-traces.npy``` contains a numpy array of shape ```(N,tlen)``` that stores the traces. This is the output for this task. 
 **This file is too large to be uploaded here. It is located on the SLAC NFS at the following path:**
 ```/nfs/slac/g/supercdms/dl/mc/twopole-traces.npy```
+
+Alternatively you can simply generate the traces using the ```twopole_function``` shown above and the parameters provided.

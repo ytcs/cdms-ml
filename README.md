@@ -1,6 +1,6 @@
 # cdms-ml
 
-The repo contains standardized tasks which build towards developing a fully functional reconstruction pipeline for SuperCDMS detectors.
+The repo contains standardized tasks which build towards developing a fully functional reconstruction pipeline for SuperCDMS detectors. Think of this as CIFAR or MNIST for CDMS.
 
 The reconstruction pipeline consists of two main building blocks:
 

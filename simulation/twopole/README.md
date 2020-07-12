@@ -26,6 +26,7 @@ Frequently the network will converge to an unphysical saddle point which has a h
 
 You should save your model as a Keras model using ```keras.models.save()```. Tarballs or ```.keras``` files are both accepted. Please submit a pull request if you have a model that performs better than the top model in the current ranking. For models that contain custom loss functions/layers, the ```compile=False``` option may be required when loading the model.
 
+## Current Ranking
 
 | Model Name | Score (%) | Physicality | Submitted by | 
 | --- | --- | --- | --- |

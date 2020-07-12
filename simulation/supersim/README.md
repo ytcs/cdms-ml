@@ -1,1 +1,1 @@
-# Simulating SuperSim hits 
+# Simulating SuperSim events

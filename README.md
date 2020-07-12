@@ -16,7 +16,8 @@ The combination of the above networks will allow us to perform full event NN-bas
 
 We strongly encourage all members of the collaboration to take part in the various challenges.
 
-All submissions should be compatible with Keras.
+All submissions has to be Keras-compatible.
+
 ## List of open challenges:
  - [Two-pole simulation](simulation/twopole/README.md)
 

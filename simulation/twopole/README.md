@@ -32,4 +32,4 @@ You should save your model as a Keras model using ```keras.models.save()```. Tar
 
 | Model Name | Score (%) | Physics Score | Submitted by | 
 | --- | --- | --- | --- |
-| DenseNet-2pole | 99.28 | 0 | To Chin Yu (Jul11,2020)|
+| DenseNet-2pole | 99.28 | 0 | To Chin Yu |

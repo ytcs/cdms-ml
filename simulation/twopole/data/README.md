@@ -10,7 +10,7 @@ def twopole_function(tlen, A, tau1, tau2, t0):
         * np.exp(-(t - t0) / tau1)
         * (1 - np.exp(-(t - t0) / tau2))
     )
-    return pulse / np.max(pulse) * A
+    return pulse / np.max(pulse,axis=-1) * A
 ```
 
 The four parameters ```A```,```tau1```,```tau2```,```t0``` were randomly selected from the ranges [0,1), [5,50), [10,50) and [200,800).

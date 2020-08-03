@@ -16,7 +16,7 @@ Performance is ranked by ```sqrt(MSE)``` (lower is better) over the **entire** d
 score = np.sqrt(np.mean(np.square(traces-predicted_traces)))
 ```
 
-As part of the task specification you should have a minimum validation split of 20%. You should not train/test with the entire dataset otherwise your result will not be counted. Given the simplicity of the data it's also desirable to generate a small dataset yourself using the python function given and train on that instead.
+As part of the task specification you should have a minimum validation split of 20%. You should not train with the entire dataset otherwise your result will not be counted. Given the simplicity of the data it's also desirable to generate a small dataset yourself using the python function given and train on that instead.
 
 2. Physics Check
 

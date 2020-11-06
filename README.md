@@ -23,3 +23,4 @@ All submissions has to be Keras-compatible.
 
 ## References:
  -	[arXiv:1802.03325](https://arxiv.org/abs/1802.03325)
+ -	[arXiv:1708.00647](https://arxiv.org/abs/1708.00647)
